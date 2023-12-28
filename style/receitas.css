@@ -1,0 +1,26 @@
+main {
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.receita-card {
+  margin: 5px;
+  width: 230px;
+  min-height: 480px;
+  background-color: #edf5e1;
+  border: #edf5e1 2px solid;
+}
+
+.receita-img {
+  width: auto;
+  height: 130px;
+  object-fit: cover;
+  object-position: 25% 95%;
+}
+
+.receita-texto {
+  width: auto;
+  padding: 25px;
+  color: #05386b;
+}
